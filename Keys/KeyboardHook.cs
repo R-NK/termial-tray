@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace WindowsTermialTray.Keys
+namespace WindowsTerminalTray.Keys
 {
     // https://stackoverflow.com/a/3654821/10451282
 

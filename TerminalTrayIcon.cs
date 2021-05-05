@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
-using WindowsTermialTray;
-using WindowsTermialTray.Keys;
-using WindowsTermialTray.Properties;
+using WindowsTerminalTray.Keys;
+using WindowsTerminalTray.Properties;
 
 namespace WindowsTerminalTray
 {
@@ -29,11 +27,11 @@ namespace WindowsTerminalTray
             contextMenu.MenuItems.Add(exitItem);
 
             _appTrayList = new List<TrayApp>();
-            _appTrayList.AddRange(new []
+            _appTrayList.AddRange(new[]
             {
-                new TrayApp("WindowsTerminal", "wt.exe", ModifierKeys.Alt, Keys.Oemtilde)
+                new TrayApp("WindowsTerminal", "wt.exe", ModifierKeys.Alt, System.Windows.Forms.Keys.Oemtilde)
                 // Add your other tray apps here
-                // new TrayApp("ProcessName", "exec.exe", ModifierKeys.Ctrl, Keys.Oemtilde)
+                // new TrayApp("ProcessName", "exec.exe", ModifierKeys.Ctrl, System.Windows.Forms.Keys.Oemtilde)
             });
 
             Ni = new NotifyIcon

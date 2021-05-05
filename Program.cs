@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using WindowsTerminalTray;
 
-namespace WindowsTermialTray
+namespace WindowsTerminalTray
 {
     static class Program
     {

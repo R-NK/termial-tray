@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
-using WindowsTermialTray.Keys;
+using WindowsTerminalTray.Keys;
 
-namespace WindowsTermialTray
+namespace WindowsTerminalTray
 {
     public class TrayApp : IDisposable
     {
